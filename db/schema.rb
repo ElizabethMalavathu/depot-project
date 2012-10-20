@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20121020165329) do
     t.string   "name"
     t.text     "nutritional_string"
     t.text     "notes"
+    t.integer  "cafeterium_id"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
   end
