@@ -4,6 +4,7 @@ class CreateMeals < ActiveRecord::Migration
       t.string :name
       t.text :nutritional_string
       t.text :notes
+      t.belongs_to :cafeterium
 
       t.timestamps
     end
